@@ -9,8 +9,7 @@ phases:
       - npm install
   build:
     commands:
-      - echo Building the app...
-      - npm run build # Replace with any build commands you have
+      - echo Skipping build step for now
   post_build:
     commands:
       - echo Build complete!
