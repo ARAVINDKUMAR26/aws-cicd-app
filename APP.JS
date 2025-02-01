@@ -2,7 +2,8 @@ const http = require('http');
 const port = 3000;
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello, CI/CD Pipeline!');
+    res.end('Updated Version: CI/CD Pipeline is working!');
+
 });
 server.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
