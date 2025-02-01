@@ -1,0 +1,23 @@
+{
+    "name": "aws-cicd-app",
+    "version": "1.0.0",
+    "description": "A simple AWS CI/CD app",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ARAVINDKUMAR26/aws-cicd-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ARAVINDKUMAR26/aws-cicd-app/issues"
+    },
+    "homepage": "https://github.com/ARAVINDKUMAR26/aws-cicd-app#readme",
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
